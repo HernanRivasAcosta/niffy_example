@@ -1,0 +1,15 @@
+{application, niffy_example,
+ [{description, "A collection of niffy examples"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {niffy_example_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, ["hernanrivasacosta@gmail.com"]},
+  {licenses, []},
+  {links, []}
+ ]}.
